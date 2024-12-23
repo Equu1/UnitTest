@@ -1,11 +1,11 @@
-from student import Student
+from src.student import Student
 from presence import Attendance
-from adding_students import add_student, edit_students
-from check_attendance import CheckAttendance
+from src.adding_students import add_student, edit_students
+from src.check_attendance import CheckAttendance
 import os
 
 class Main:
-    def display_options():
+    def display_options(self):
         os.system('clear')
         print("[1] Obecność.")
         print("[2] Dodaj nowego studenta.")
@@ -13,7 +13,7 @@ class Main:
         print("[4] Zapisz studentów.")
         print("[0] Wyjdź z interfejsu.")
 
-    def menu():
+    def menu(self):
         Main.display_options()
         option = int(input("Wprowadź opcję: "))
 

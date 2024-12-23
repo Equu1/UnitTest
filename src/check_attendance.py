@@ -1,6 +1,6 @@
 import os
-from presence import Attendance
-from student import Student
+from src.presence import Attendance
+from src.student import Student
 from datetime import datetime
 
 if not os.path.exists('attendance'):

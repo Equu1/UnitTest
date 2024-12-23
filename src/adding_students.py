@@ -1,6 +1,6 @@
 import os
 import csv
-from student import Student
+from src.student import Student
 
 # Adding a student
 def add_student():
